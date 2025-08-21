@@ -3,7 +3,14 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
-
+    overflow: hidden;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* full black */
+  overflow: hidden;
 }
 
 .container {
@@ -14,12 +21,15 @@
     justify-content: center;
     text-align: center;
     height: 100vh;
+    margin-bottom: 0;
+    overflow: hidden;
 }
 
 .title h1 {
     font-size: 26px;
     color: white;
     margin-bottom: 10px;
+    margin-right: 35px;
 }
 
 .card {
